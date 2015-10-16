@@ -1,0 +1,226 @@
+*{margin: 0;
+padding: 0;
+list-style-type: none;
+color: #666666;
+}
+.clear{clear: both;}
+body{background: #feedde;}
+header{background: #fff;
+width: 940px;height: auto;
+margin: 0px auto;
+}
+
+.header{width: 900px;
+	height: auto;
+	margin: auto;
+
+background: #fff;
+background-image: url("bg_img/header.png");
+background-repeat:repeat-x;
+background-position: 100% 100%;
+
+}
+#h-setumei{ width:270px;
+	float: left;
+padding: 10px 15px ;}
+
+.top p {width: 600px;
+	float: right;
+	font-size: 12px;
+ text-align: right;
+ padding: 5px 10px;
+}
+.top{width: 600px;
+	float: right;
+	padding-top: 8px}
+.toplink{
+	width: 600px;
+	height: auto;
+padding-bottom: 0px;
+}
+#t-link{
+	text-align: center;
+	}
+#t-link a{display: block;
+text-decoration: none;
+}
+
+a{display: block;
+}
+.hyou1{display: table;}
+.home{width: 600px;height: 35px;
+	background-image: url("bg_img/menu1.png");
+	background-repeat: no-repeat;
+	font-size: 14px;
+	font-weight: normal;
+	display: table-cell;
+	margin-left: auto;vertical-align: middle;
+}
+.menu{width: 600px;height: 35px;
+	background-image: url("bg_img/menu2.png");
+    background-repeat: no-repeat;
+    font-size: 14px;
+	font-weight: normal;
+	display: table-cell;margin-left: auto;vertical-align: middle;
+}
+.tenpo{width: 600px;height: 35px;
+	background-image: url("bg_img/menu3.png");
+    background-repeat: no-repeat;
+    font-size: 14px;
+	font-weight: normal;vertical-align: middle;
+display: table-cell;margin-left: auto;
+}
+.home:hover,.tenpo:hover,.menu:hover	{background-color: #ffff66;}
+
+
+
+main{
+	width: 940px;
+	height: auto;
+margin: auto;
+background: #fff;
+border-bottom: solid 10px #e4bc8a;
+padding-bottom: 20px;
+padding-top: 20px;
+}
+#mainbg{width: 920px;
+height: auto;
+margin: auto;
+background-image: url("bg_img/main-back.png");
+background-repeat: no-repeat;
+}
+
+#sintyaku {width: 900px;
+	height: auto;
+	padding:  30px 10px 0px 30px;}
+
+.sintyaku1{width: 590px;
+float: left;
+}
+#sintyaku2{width: 268px;
+	padding-right: 20px;
+
+float: right;}
+
+#hyou2{width: 268px;
+	height: auto;
+	margin-left: auto;}
+.h2-1{width: 268px;
+	height: auto;
+	background: #eeee55;
+	background-image: url("bg_img/icon1.png");
+background-repeat: no-repeat;
+background-position: 3% 50%}
+
+h2{
+text-indent: 30px;
+color: #fff;
+font-size: 16px;
+display: block;
+text-decoration: none;}
+
+.index-1{background-image: url("bg_img/icon3.png");
+background-repeat: no-repeat;
+background-position: 3% 40%;
+	color: #663300;
+	font-size: 12px;
+   text-indent: 30px;
+   margin-top: 10px;
+   padding-bottom: 5px;
+}
+.index-2{
+	font-size: 12px;
+   text-indent: 30px;
+   padding-bottom: 10px;
+border-bottom: dotted 1px #888888;}
+
+section{clear: both;
+	width: 895px;
+margin-left: 20px;
+margin-top: 40px;
+background: #ffffff;}
+
+.pick{width: 307px;
+background: #cfce6d;
+margin: auto;
+float: left;
+ }
+.h2-2{width: 95px;
+	height: 23px;
+	margin: 10px auto 10px 20px;
+	background: #6a5b21;
+	background-image: url("bg_img/icon2.png");
+	background-repeat: no-repeat;
+	background-position: 3% 50%;
+
+}
+.pick-setumai{width: 307px;
+	margin-left: 20px;
+
+font-size:13px;}
+.pick-1{width: 260px;
+	font-weight: bolder;}
+.pick-2{width: 260px;
+	padding-bottom: 20px;}
+
+.ninki{width: 555px;
+	padding-right: 0px;
+float: right;
+display: table;
+margin: 0 0 10px 0;
+}
+.h2-3{background: #008899;
+	background-image: url("bg_img/icon1.png");
+background-repeat: no-repeat;
+background-position: 1% 50%;padding-bottom: 3px
+
+}
+span{color: #fff;
+float: right;
+font-weight: normal;
+font-size: 10px;
+padding-top: 3px;
+padding-right: 20px;}
+
+div.n1{width: 555px;
+height: auto;
+padding-top: 10px;
+border-top: dotted 1px #777777;
+margin: auto;
+
+}
+
+div.n1:nth-child(2) {border-top: solid 1px #777777;}
+
+.contents{
+	float: left;
+width: 274px;
+height: auto;}
+
+.contents-in1{width: 100px;float: left;
+}
+.contents-in2{width: 155px;padding: 5px;
+	float: right;
+	font-size: 12px;
+	font-weight: bolder;
+}
+.c-2-setumei{font-weight: normal;}
+
+.hooter{width: 940px;
+	height: 50px;
+	margin: auto;
+	background-image: url("bg_img/footer.png");
+background-repeat: repeat-x;
+text-align: center;
+}
+
+small{height: auto;
+font-size: 13px;
+color: #f5deb3;
+text-align: center;
+vertical-align: -35%;
+
+}
+
+@media screen and (max-width: 768px) and (min-width: 980px){main{background: #000;}}
+@media screen and (max-width: 400px) and (min-width: 768px){main{background: #555;}}
